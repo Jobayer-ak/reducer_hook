@@ -1,23 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
+import Counter from './components/Counter';
+import ComplexCounter from './components/ComplexCounter';
+import Counter3 from './components/Counter3';
+import GetPost from './components/GetPost';
+import GetPost2 from './components/GetPost2';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Counter></Counter> */}
+      {/* <ComplexCounter></ComplexCounter> */}
+      {/* <Counter3></Counter3> */}
+      {/* <GetPost></GetPost> */}
+      <GetPost2></GetPost2>
     </div>
   );
 }
